@@ -58,7 +58,7 @@ jobs:
           git config --global user.email 'hydroperfox@gmail.com'
           git switch -C ghpages
           git rm -rf --cached .
-          git ls-files -z | grep -z '(^|/)\.' | xargs -0 git rm -rf --cached
+          git ls-files | grep '(^|/)\.' | xargs git rm --cached
           git add .
           git commit -m "Automated report"
           git push origin -f ghpages
