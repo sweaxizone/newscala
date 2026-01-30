@@ -15,5 +15,5 @@ Dotty (Scala compiler): https://index.scala-lang.org/scala/scala3
   - sourcepath = contains .scala
   - classpath = contains .tasty and .class
   - sourcepath and classpath mustn't conflict.
-  - If anything in sourcepath changed relative to last build, best to remove all cached .tasty before invoking the Dotty compiler, and don't supply the classpath.
-  - If nothing in sourcepath changed relative to last build, then don't supply the sourcepath to Dotty; supply only the classpath.
+  - If anything in sourcepath or resourcespath changed relative to last build, best to remove all cached .tasty before invoking the Dotty compiler, and don't supply the classpath.
+  - If nothing in sourcepath or resourcespath changed relative to last build, then don't supply the sourcepath to Dotty; supply only the classpath.
