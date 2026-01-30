@@ -1,5 +1,9 @@
 # New Scala
 
+<p align="center">
+  <a href="https://sweaxizone.github.io/newscala/help/manual"><img src="https://img.shields.io/badge/Manual-gray"></a>
+</p>
+
 Scala, but easier to set up.
 
 > **Note**: New Scala is in initial development phase.
