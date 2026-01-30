@@ -1,0 +1,31 @@
+# VSCode "Scala (Metals)" extension
+/.metals
+
+# Bloop build (used by VSCode Scala Metals)
+/.bloop
+/project/.bloop
+
+# Created by https://www.gitignore.io/api/sbt,scala (but a little modified)
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+/dist/*
+/target/
+/lib_managed/
+/src_managed/
+/project/boot/
+/project/project
+/project/target
+/project/plugins/project/
+/.history
+/.cache
+/.lib/
+/.bsp
+
+### Scala ###
+*.class
+*.log
+
+# End of https://www.gitignore.io/api/sbt,scala
