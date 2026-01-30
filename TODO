@@ -1,0 +1,44 @@
+TOML: https://index.scala-lang.org/indoorvivants/toml-scala
+Dotty (Scala compiler): https://index.scala-lang.org/scala/scala3
+
+# Command `newscala new`
+
+- [ ] Done
+
+# Command `newscala check`
+
+- [ ] Done
+
+# Command `newscala build`
+
+- [ ] Done
+
+# Command `newscala doc`
+
+ScalaDoc => HTML generation. (Should look like JavaDoc 20's output.)
+
+- [ ] Done
+
+# Command `newscala run`
+
+- [ ] Done
+
+# Command `newscala publish`
+
+- [ ] Done
+
+# Command `newscala clean`
+
+- [ ] Done
+
+# Command `newscala fmt`
+
+- [ ] Done
+
+# Command `newscala login`
+
+- [ ] Done
+
+# Language server
+
+- [ ] ...
