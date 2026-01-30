@@ -12,3 +12,5 @@ import com.sweaxizone.newscala.Embed._
 Embed("flower.webp") // embeds the file either
                      // externally or internally.
 ```
+
+Use-cases for `Embed` include embedding multiple icon bitmaps in a component library. Traditional JVM resources are fine for SVGs in general, but complex skeumorphic icon designs may be heavier, specially higher resolutions like 1024x1024, which would increase the .class file and, for targets where virtual memory isn't applicable (such as WebAssembly), consume more RAM once the application evaluates.
