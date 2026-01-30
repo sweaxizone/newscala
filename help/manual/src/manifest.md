@@ -172,6 +172,10 @@ source-path = "src"
 #
 main-class = "com.ninja.game.Main"
 
+# Resources path (for "Embed(...)").
+#
+resources-path = "res/embed"
+
 # following: "error", "warn" or "allow"
 unreachable-code = "warn"
 unused = "warn"
@@ -254,14 +258,15 @@ description."pt" = "Descrição"
 framerate = 30
 # Background color.
 background = "#000"
-# App-installation resources directory.
+# App-installation resources directory. Used by
+# the Whack framework.
 #
-# This is used by the `app:` scheme for resolving
+# In Whack, this is used by the `app:` scheme for resolving
 # assets from the app's installation directory.
 #
-# Default: res/.
+# Default: res/app.
 #
-resources = "res"
+resources = "res/app"
 
 # For Scala.js web projects, indicates the
 # absolute path of the web project in its host.
