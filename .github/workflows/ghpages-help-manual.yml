@@ -57,8 +57,7 @@ jobs:
           git config --global user.name 'matheusds4'
           git config --global user.email 'hydroperfox@gmail.com'
           git switch -C ghpages
-          git rm -rf --cached .
-          git rm -rf --cached .*
+          git rm -rf --cached . .github .vscode .gitignore
           git add .
           git commit -m "Automated report"
           git push origin -f ghpages
