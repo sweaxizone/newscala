@@ -1,5 +1,7 @@
 # Unit testing
 
+Unit-testing sources are put in a separate project source path from the main since they may need a different runtime to run (a bit similar to traditional Java or Scala projects).
+
 ## Code snippets
 
 ```scala

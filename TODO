@@ -16,6 +16,10 @@ ScalaDoc => HTML generation. (Should look like JavaDoc 20's output.)
 
 - [ ] Done
 
+# Command `newscala test`
+
+- [ ] Done
+
 # Command `newscala run`
 
 - [ ] Done
