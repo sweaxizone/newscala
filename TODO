@@ -40,6 +40,20 @@ ScalaDoc => HTML generation. (Should look like JavaDoc 20's output.)
 
 - [ ] Done
 
+# Command `newscala terminal install`
+
+- [ ] Done
+
+# Command `newscala terminal uninstall`
+
+- [ ] Done
+
 # Language server
 
 - [ ] ...
+
+# Package registry website
+
+Temporarily, we'll use TypeScript + React.js + IBM's Carbon Design Language to implement the website.
+
+- [ ] Done

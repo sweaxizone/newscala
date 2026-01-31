@@ -2,8 +2,8 @@
 
 # Third-party
 
-TOML: https://index.scala-lang.org/indoorvivants/toml-scala
-Dotty (Scala compiler): https://index.scala-lang.org/scala/scala3
+- TOML: https://index.scala-lang.org/indoorvivants/toml-scala
+- Dotty (Scala compiler): https://index.scala-lang.org/scala/scala3
 
 # Dotty
 
