@@ -6,3 +6,4 @@ title = "New Scala"
 
 [output.html]
 fold = { enable = true }
+theme = "../com.sweaxizone.metro/theme"
