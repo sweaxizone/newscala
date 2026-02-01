@@ -43,7 +43,7 @@ version = "0.1.0"
 #
 # Supported values:
 #
-# - "http://www.scala-lang.org/2021/scala/3/compat"
+# - "http://www.scala-lang.org/2021/scala/3/generic"
 #   - Compatible with all the other runtimes.
 # - "http://www.scala-lang.org/2021/scala/3/jvm"
 # - "http://www.scala-js.org/2013/scala/3"
