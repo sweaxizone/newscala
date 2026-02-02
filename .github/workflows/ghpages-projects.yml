@@ -1,14 +1,16 @@
-name: GHPages - help/manual
+name: GHPages - projects
 
 on:
   push:
     branches: [ "master" ]
     paths:
       - 'help/manual/**'
+      - 'help/com.sweaxizone.metro/**'
   pull_request:
     branches: [ "master" ]
     paths:
       - 'help/manual/**'
+      - 'help/com.sweaxizone.metro/**'
   workflow_dispatch:
     inputs:
       logLevel:
