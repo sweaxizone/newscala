@@ -40,11 +40,11 @@ ScalaDoc => HTML generation. (Should look like JavaDoc 20's output.)
 
 - [ ] Done
 
-# Command `newscala terminal install`
+# Command `newscala shell install`
 
 - [ ] Done
 
-# Command `newscala terminal uninstall`
+# Command `newscala shell uninstall`
 
 - [ ] Done
 

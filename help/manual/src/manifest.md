@@ -183,18 +183,18 @@ unreachable-code = "warn"
 unused = "warn"
 ```
 
-## Terminal section
+## Shell section
 
-Used for contributing terminal applications, installable through `newscala terminal install`.
+Used for contributing command-line applications, installable through `newscala shell install`.
 
 ```toml
-[[terminal]]
+[[shell]]
 name = "mycmd1"
-main-class = "com.ninja.gate.terminal.MyCommand1"
+main-class = "com.ninja.gate.shell.MyCommand1"
 
-[[terminal]]
+[[shell]]
 name = "mycmd2"
-main-class = "com.ninja.gate.terminal.MyCommand2"
+main-class = "com.ninja.gate.shell.MyCommand2"
 ```
 
 ## Unit-testing sections
