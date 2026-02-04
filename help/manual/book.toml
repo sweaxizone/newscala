@@ -5,5 +5,6 @@ src = "src"
 title = "New Scala"
 
 [output.html]
+hash-files = false
 fold = { enable = true }
 theme = "../com.sweaxizone.metro/theme"
