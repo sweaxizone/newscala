@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 300;
   src: local('Open Sans Light'), local('OpenSans-Light'),
-       url('{{ resource "fonts/open-sans-v17-all-charsets-300.woff2" }}') format('woff2');
+       url('../fonts/open-sans-v17-all-charsets-300.woff2') format('woff2');
 }
 
 /* open-sans-300italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
@@ -20,7 +20,7 @@
   font-style: italic;
   font-weight: 300;
   src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'),
-       url('{{ resource "fonts/open-sans-v17-all-charsets-300italic.woff2" }}') format('woff2');
+       url('../fonts/open-sans-v17-all-charsets-300italic.woff2') format('woff2');
 }
 
 /* open-sans-regular - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
@@ -29,7 +29,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans Regular'), local('OpenSans-Regular'),
-       url('{{ resource "fonts/open-sans-v17-all-charsets-regular.woff2" }}') format('woff2');
+       url('../fonts/open-sans-v17-all-charsets-regular.woff2') format('woff2');
 }
 
 /* open-sans-italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
@@ -38,7 +38,7 @@
   font-style: italic;
   font-weight: 400;
   src: local('Open Sans Italic'), local('OpenSans-Italic'),
-       url('{{ resource "fonts/open-sans-v17-all-charsets-italic.woff2" }}') format('woff2');
+       url('../fonts/open-sans-v17-all-charsets-italic.woff2') format('woff2');
 }
 
 /* open-sans-600 - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
@@ -47,7 +47,7 @@
   font-style: normal;
   font-weight: 600;
   src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
-       url('{{ resource "fonts/open-sans-v17-all-charsets-600.woff2" }}') format('woff2');
+       url('../fonts/open-sans-v17-all-charsets-600.woff2') format('woff2');
 }
 
 /* open-sans-600italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
@@ -56,7 +56,7 @@
   font-style: italic;
   font-weight: 600;
   src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
-       url('{{ resource "fonts/open-sans-v17-all-charsets-600italic.woff2" }}') format('woff2');
+       url('../fonts/open-sans-v17-all-charsets-600italic.woff2') format('woff2');
 }
 
 /* open-sans-700 - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
@@ -65,7 +65,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('Open Sans Bold'), local('OpenSans-Bold'),
-       url('{{ resource "fonts/open-sans-v17-all-charsets-700.woff2" }}') format('woff2');
+       url('../fonts/open-sans-v17-all-charsets-700.woff2') format('woff2');
 }
 
 /* open-sans-700italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
@@ -74,7 +74,7 @@
   font-style: italic;
   font-weight: 700;
   src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
-       url('{{ resource "fonts/open-sans-v17-all-charsets-700italic.woff2" }}') format('woff2');
+       url('../fonts/open-sans-v17-all-charsets-700italic.woff2') format('woff2');
 }
 
 /* open-sans-800 - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
@@ -83,7 +83,7 @@
   font-style: normal;
   font-weight: 800;
   src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
-       url('{{ resource "fonts/open-sans-v17-all-charsets-800.woff2" }}') format('woff2');
+       url('../fonts/open-sans-v17-all-charsets-800.woff2') format('woff2');
 }
 
 /* open-sans-800italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
@@ -92,7 +92,7 @@
   font-style: italic;
   font-weight: 800;
   src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
-       url('{{ resource "fonts/open-sans-v17-all-charsets-800italic.woff2" }}') format('woff2');
+       url('../fonts/open-sans-v17-all-charsets-800italic.woff2') format('woff2');
 }
 
 /* yunoga */
@@ -101,7 +101,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Courier 10 Pitch Regular'), local('Courier10Pitch-Regular'), local('Courier10Pitch'), local('Courier 10 Pitch'),
-       url('{{ resource "fonts/yunoga.woff2" }}') format('woff2');
+       url('../fonts/yunoga.woff2') format('woff2');
 }
 
 /* yunoga */
@@ -110,7 +110,7 @@
   font-style: italic;
   font-weight: 400;
   src: local('Courier 10 Pitch Italic'), local('Courier10Pitch-Italic'),
-       url('{{ resource "fonts/yunoga_i.woff2" }}') format('woff2');
+       url('../fonts/yunoga_i.woff2') format('woff2');
 }
 
 /* yunoga */
@@ -119,7 +119,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('Courier 10 Pitch Bold'), local('Courier10Pitch-Bold'),
-       url('{{ resource "fonts/yunoga_b.woff2" }}') format('woff2');
+       url('../fonts/yunoga_b.woff2') format('woff2');
 }
 
 /* yunoga */
@@ -128,5 +128,5 @@
   font-style: italic;
   font-weight: 700;
   src: local('Courier 10 Pitch Bold Italic'), local('Courier10Pitch-BoldItalic'),
-       url('{{ resource "fonts/yunoga_bi.woff2" }}') format('woff2');
+       url('../fonts/yunoga_bi.woff2') format('woff2');
 }
